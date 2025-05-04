@@ -9,6 +9,7 @@ A table-booking system using React. It's a fully responsive web app that allows 
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Getting Started](#getting-started)
 
 ## My process
 
@@ -66,3 +67,39 @@ const BookingForm = ({ availableTimes, dispatch }) => {
 ## Author
 
 - LinkedIn - [@efealco](https://www.linkedin.com/in/efealco/)
+
+- Here’s a copy-paste-ready section you can add directly to your README.md under a new Getting Started section:
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+2. Install dependencies
+
+Before running the app, install the required packages:
+
+npm install
+
+3. Start the development server
+
+To launch the app locally:
+
+npm start
+
+This will start the app in development mode. Open http://localhost:3000 in your browser to view it.
+
+4. Run tests
+
+To execute unit tests:
+
+npm test
+
+This will launch the test runner in interactive watch mode.
+
+Replace `your-username/your-repo-name` with your actual GitHub repo path. Want me to generate badges or a "live demo" section too?
