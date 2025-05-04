@@ -6,7 +6,6 @@ A table-booking system using React. It's a fully responsive web app that allows 
 
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Getting Started](#getting-started)
@@ -23,47 +22,12 @@ A table-booking system using React. It's a fully responsive web app that allows 
 - Semantic HTML
 - Open Graph Protocol
 
-### What I learned
-
-- Hide/show navbar depending on scroll direction
-- Creating a form component in React
-- Creating a controlled component in React
-- Creating routes using React Router v6
-- Creating unit tests using React Testing Library
-- Storing state using localStorage API
-- Using aria attributes to ensure my application is accessible to users
-- Handling form submission and validation
-- Managing state within a component using UseState Hook
-- Handling side-effects using useEffect Hook
-- Creating a basic list component using map function
-- Using keys within list Components
-- Lifting state up
-- Styling React App with Pure CSS
-- Adding Open Graph Protocol meta tags to improve SEO
-
-Here is a code snippet: 
-
-```jsx
-const BookingForm = ({ availableTimes, dispatch }) => {
-  const navigate = useNavigate();
-  const { times } = availableTimes;
-  const [bookings, setBookings] = useState({
-    date: '',
-    time: '17:00',
-    guests: '',
-    occasion: 'Birthday',
-  });
-
-  useEffect(() => {
-    localStorage.setItem('Bookings', JSON.stringify(bookings));
-  }, [bookings]);
-```
-
 ### Useful resources
 
 - [React Docs (Rendering Lists) ](https://reactnative.dev/docs/stylesheet) - This helped me for rendering lists in the navbar. I really liked their documentation and will use it going forward.  
 - [React Testing Library ](https://testing-library.com/docs/react-testing-library/intro/) - This helped me for creating unit tests in React.
 - [React Router (useNavigate)](https://reactrouter.com/en/6.5.0/hooks/use-navigate) - This helped me for redirecting user to a confirmed booking page.
+  
 ## Author
 
 - LinkedIn - [@efealco](https://www.linkedin.com/in/efealco/)
